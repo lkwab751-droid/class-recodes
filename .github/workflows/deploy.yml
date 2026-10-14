@@ -34,7 +34,7 @@ jobs:
           actions-cache-folder: emsdk-cache
 
       - name: Compile C++ to WebAssembly
-        run: ./build.sh
+           run: bash build.sh
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
